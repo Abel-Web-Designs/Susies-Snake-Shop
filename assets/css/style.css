@@ -47,12 +47,12 @@ ul.social-icons li a {
 }
 
 ul.social-icons li a:hover {
-	background-color: #f33f3f;
+	background-color: #0084ff;
 	color: #fff;
 }
 
 a.filled-button {
-	background-color: #f33f3f;
+	background-color: #0084ff;
 	color: #fff;
 	font-size: 14px;
 	text-transform: capitalize;
@@ -106,7 +106,7 @@ a.filled-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #f33f3f;
+  background: #0084ff;
   left: 0;
   right: 0;
   top: 0;
@@ -437,7 +437,7 @@ header .navbar {
 }
 
 .product-item .down-content ul li i {
-	color: #f33f3f;
+	color: #0084ff;
 	font-size: 14px;
 }
 
@@ -446,12 +446,12 @@ header .navbar {
 	right: 30px;
 	bottom: 30px;
 	font-size: 13px;
-	color: #f33f3f;
+	color: #0084ff;
 	font-weight: 500;
 }
 
 .product-item .down-content span a {
-	color: #f33f3f;
+	color: #0084ff;
 	display: inline-block;
 	margin-bottom: 3px;
 }
@@ -527,11 +527,11 @@ header .navbar {
 }
 
 .best-features ul.featured-list li a:hover {
-	color: #f33f3f;
+	color: #0084ff;
 }
 
 .best-features ul.featured-list li a:hover::before {
-	background-color: #f33f3f;
+	background-color: #0084ff;
 }
 
 .best-features .filled-button {
@@ -590,7 +590,7 @@ footer .inner-content p {
 }
 
 footer .inner-content p a {
-	color: #f33f3f;
+	color: #0084ff;
 	margin-left: 3px;
 }
 
@@ -623,7 +623,7 @@ footer .inner-content p a {
 
 .products .filters ul li.active,
 .products .filters ul li:hover {
-  color: #f33f3f;
+  color: #0084ff;
 }
 
 .dropdown-menu { 
@@ -674,8 +674,8 @@ footer .inner-content p a {
 
 .products ul.pages li a:hover,
 .products ul.pages li.active a {
-	background-color: #f33f3f;
-	border-color: #f33f3f;
+	background-color: #0084ff;
+	border-color: #0084ff;
 	color: #fff;
 }
 
@@ -729,7 +729,7 @@ footer .inner-content p a {
 
 .team-member .thumb-container .hover-effect .hover-content ul.social-icons li a:hover {
 	background-color: #fff;
-	color: #f33f3f;
+	color: #0084ff;
 }
 
 .team-member:hover .hover-effect {
@@ -746,7 +746,7 @@ footer .inner-content p a {
 .team-member .down-content span {
 	display: block;
 	font-size: 13px;
-	color: #f33f3f;
+	color: #0084ff;
 	font-weight: 500;
 	margin-bottom: 20px;
 }
@@ -784,7 +784,7 @@ footer .inner-content p a {
 	display: inline-block;
 	text-align: center;
 	line-height: 100px;
-	background-color: #f33f3f;
+	background-color: #0084ff;
 	color: #fff;
 	font-size: 32px;
 }
@@ -825,7 +825,7 @@ footer .inner-content p a {
 }
 
 .owl-clients button.owl-dot.active { 
-	background: #f33f3f!important; 
+	background: #0084ff!important; 
 }
 
 /* Clients */
@@ -919,7 +919,7 @@ footer .inner-content p a {
 }
 
 .contact-form button.filled-button {
-	background-color: #f33f3f;
+	background-color: #0084ff;
 	color: #fff;
 	font-size: 14px;
 	text-transform: capitalize;
