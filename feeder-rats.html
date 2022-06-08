@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/images/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>SSS | Feeder Rats</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Susie's Snake <em>Shop</em></h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home
+                      <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://www.paypal.com/cgi-bin/webscr?cmd=_cart&business=KZ93U49LVFB62&display=1" target="_blank">Checkout</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading about-heading header-text" style="background-image: url(assets/images/bg.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              <h2>Feeder Rats</h2>
+              <h2></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="products">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-xs-12">
+            <div>
+              <img src="assets/images/products/feeder-rat.png" alt="" class="img-fluid wc-image">
+            </div>
+            <br>
+          </div>
+
+          <div class="col-md-8 col-xs-12">
+            <form action="#" method="post" class="form">
+              <h2>Frozen Feeder Rats</h2>
+
+              <br>
+
+              <p class="lead">
+                <strong class="text-primary">$1.03 - $2.58</strong>
+              </p>
+
+              <br>
+
+              <p class="lead">
+                <strong class="text-primary"><font color="green">In Stock</font></strong>
+              </p>
+
+              <!--
+              Use this code for sales
+              <p class="lead">
+                <small><del> $1.99</del></small><strong class="text-primary"> $0.99</strong>
+              </p>
+              -->
+
+              <br>
+
+              <p class="lead">
+                Frozen Feeder Rats
+              </p>
+
+              <br> 
+
+              <!-- BUY NOW CODE--> 
+              <div id="smart-button-container">
+                <div style="text-align: center;">
+                  <div style="margin-bottom: 1.25rem;">
+                    <p>Frozen Feeder Rats</p>
+                    <select id="item-options"><option value="Frozen Rat - Pinky" price="1.03">Frozen Rat - Pinky - 1.03 USD</option><option value="Frozen Rat - Fuzzy" price="1.28">Frozen Rat - Fuzzy - 1.28 USD</option><option value="Frozen Rat - Pup" price="1.54">Frozen Rat - Pup - 1.54 USD</option><option value="Frozen Rat - Weaned" price="1.80">Frozen Rat - Weaned - 1.80 USD</option><option value="Frozen Rat - Small" price="2.06">Frozen Rat - Small - 2.06 USD</option><option value="Frozen Rat - Medium" price="2.32">Frozen Rat - Medium - 2.32 USD</option><option value="Frozen Rat - Large" price="2.58">Frozen Rat - Large - 2.58 USD</option></select>
+                    <select style="visibility: hidden" id="quantitySelect"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option></select>
+                  </div>
+                <div id="paypal-button-container"></div>
+                </div>
+              </div>
+              <script src="https://www.paypal.com/sdk/js?client-id=AaQyiSIsQW5s3zE2q_3I0pnmp13b_YQUU3NRyxdGpV3qo4UQFw8kFKAVjIvSrwpxZjlTXmWBmWe9kvMR&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+              <script>
+                function initPayPalButton() {
+                  var shipping = 4;
+                  var itemOptions = document.querySelector("#smart-button-container #item-options");
+              var quantity = parseInt(10);
+              var quantitySelect = document.querySelector("#smart-button-container #quantitySelect");
+              if (!isNaN(quantity)) {
+                quantitySelect.style.visibility = "visible";
+              }
+              var orderDescription = 'Frozen Feeder Rats';
+              if(orderDescription === '') {
+                orderDescription = 'Item';
+              }
+              paypal.Buttons({
+                style: {
+                  shape: 'rect',
+                  color: 'blue',
+                  layout: 'vertical',
+                  label: 'paypal',
+                  
+                },
+                createOrder: function(data, actions) {
+                  var selectedItemDescription = itemOptions.options[itemOptions.selectedIndex].value;
+                  var selectedItemPrice = parseFloat(itemOptions.options[itemOptions.selectedIndex].getAttribute("price"));
+                  var tax = (7 === 0 || false) ? 0 : (selectedItemPrice * (parseFloat(7)/100));
+                  if(quantitySelect.options.length > 0) {
+                    quantity = parseInt(quantitySelect.options[quantitySelect.selectedIndex].value);
+                  } else {
+                    quantity = 1;
+                  }
+          
+                  tax *= quantity;
+                  tax = Math.round(tax * 100) / 100;
+                  var priceTotal = quantity * selectedItemPrice + parseFloat(shipping) + tax;
+                  priceTotal = Math.round(priceTotal * 100) / 100;
+                  var itemTotalValue = Math.round((selectedItemPrice * quantity) * 100) / 100;
+          
+                  return actions.order.create({
+                    purchase_units: [{
+                      description: orderDescription,
+                      amount: {
+                        currency_code: 'USD',
+                        value: priceTotal,
+                        breakdown: {
+                          item_total: {
+                            currency_code: 'USD',
+                            value: itemTotalValue,
+                          },
+                          shipping: {
+                            currency_code: 'USD',
+                            value: shipping,
+                          },
+                          tax_total: {
+                            currency_code: 'USD',
+                            value: tax,
+                          }
+                        }
+                      },
+                      items: [{
+                        name: selectedItemDescription,
+                        unit_amount: {
+                          currency_code: 'USD',
+                          value: selectedItemPrice,
+                        },
+                        quantity: quantity
+                      }]
+                    }]
+                  });
+                },
+                onApprove: function(data, actions) {
+                  return actions.order.capture().then(function(orderData) {
+                    
+                    // Full available details
+                    console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+          
+                    // Show a success message within this page, e.g.
+                    const element = document.getElementById('paypal-button-container');
+                    element.innerHTML = '';
+                    element.innerHTML = '<h3>Thank you for your payment!</h3>';
+          
+                    // Or go to another URL:  actions.redirect('thank_you.html');
+          
+                  });
+                },
+                onError: function(err) {
+                  console.log(err);
+                },
+              }).render('#paypal-button-container');
+            }
+            initPayPalButton();
+              </script>
+              <!-- END OF BUY NOW CODE-->
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="inner-content">
+              <p>Copyright © 2022 Susie's Snake Shop - Contact us: <a href="mailto:susiessnakeshop@gmail.com" target="_blank">Here</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+  </body>
+
+</html>
